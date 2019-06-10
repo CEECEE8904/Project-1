@@ -13,4 +13,29 @@ Search -> By Type
  Weakness chart done with css grid                         
 
 
+----- Featured List -----
+Search bar
+|
+V
+Display Pkmn Information
+Image of Pkmn selected.
+Name: 
+Type:
+Attack Stat:
+Defense Stat:
+Sp. Atk Stat:
+Sp. Def Stat:
+Speed Stat:
+**Weakness:**
+
+
+Weakness Chart (using css grid)
+usage of y and x axis to display weaknesses of different typings
+
+
+
+6/10/19
+- Setting parameters to get image to display from search
+- Working with UI elements to get search bar to function       properly.
+
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/eKI8V39"><a href="//imgur.com/eKI8V39"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
