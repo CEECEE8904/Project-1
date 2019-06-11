@@ -10,7 +10,7 @@ const PO_API = `https://pokeapi.co/api/v2/pokemon/1/`
 
 
 
-// Testing to see if specific data can be pulled from API and console loggin responses
+// Testing to see if specific data can be pulled from API and console log responses
 const api_data = async () => {
   const response = await axios.get(`${PO_API}`)
   // --- Input ---

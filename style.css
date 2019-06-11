@@ -11,10 +11,16 @@ html{
 .search-box-wrapper{
 display: inline-flex;
 font-size: 12px;
+margin-left: 850px;
+top:100px;
+float: right;
+margin-top: -1.8em;
+padding-right: 80px;
+
 }
 
 .search-box-input{
-  font-size: inherit;
+font-size: inherit;
 border: 0.2em solid black;
 border-radius: 0.2em 0 0 0.2em;
 padding: 0.2em 0.5em;
@@ -80,7 +86,7 @@ nav ul{
 }
 nav li{
   display: inline-block;
-  margin-left: -110px;
+  margin-left: -130px;
   padding-top: 25px;
   padding-right: 200px;
   /* pseudo block level element */
@@ -95,6 +101,14 @@ nav a{
 
 nav a:hover{
   color: white;
+}
+
+nav::a:before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: lightblue;
 }
 
 /* HEADER SECTION */
