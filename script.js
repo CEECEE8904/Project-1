@@ -14,7 +14,7 @@ const pkmnSrch = async () => {
   pokeData.innerHTML = "";
   const display = document.createElement('p');
   display.innerHTML = `
-  <img class = "pkmnimg" src ='${result.sprites.front_default}'/>
+  <img src ='${result.sprites.front_default}'/>
   <p id = "pkmnNm" >Name: ${result.name}</p>
   <p>Height: ${result.height}</p>
   <p>Weight: ${result.weight}</p>

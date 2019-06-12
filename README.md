@@ -44,8 +44,19 @@ usage of y and x axis to display weaknesses of different typings
   (Name,Picture, HP, Atk, Def, Sp.Def,Sp.Atk and Speed stats)
 - UI elements tweaked
 
+
+6/12/19
+- Ordered UI better
+- Centered nav li
+- Centered information gathered from the API
+- changed font on app to free google font
+- Google Font "Press Start 2p, Cursive"
+- Hover on nav-bar li change color to white
+- Animation transition for pokemon picture "shake" 
+
+
 To Do:
 - Media Query
 - Fix & Add more UI elements
 - CSS grid weakness chart
-- Dispay typing
+- Error message when inputting wrong info
