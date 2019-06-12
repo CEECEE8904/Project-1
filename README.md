@@ -29,6 +29,12 @@ Speed Stat:
 **Weakness:**
 
 
+* Search box reads users input and shows the Pokemon image, Pokemon * Name, Height, Weight, Stat Values (HP,Atk, Def, SpAtk, SpDef,        Speed)
+* Hover over the Pokemon triggers a shake effect.
+* Weakness chart on "Weakness Chart" page displays Pkmn Weaknesses
+* Each Weakness is color coded with Dmg (2x)Super Effective Dmg and    Not Very Effective (1/2)
+
+
 Weakness Chart (using css grid)
 usage of y and x axis to display weaknesses of different typings
 
@@ -53,10 +59,9 @@ usage of y and x axis to display weaknesses of different typings
 - Google Font "Press Start 2p, Cursive"
 - Hover on nav-bar li change color to white
 - Animation transition for pokemon picture "shake" 
-
+- CSS grid weakness chart
+- Fix & Add more UI elements
 
 To Do:
 - Media Query
-- Fix & Add more UI elements
-- CSS grid weakness chart
 - Error message when inputting wrong info
