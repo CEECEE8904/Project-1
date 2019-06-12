@@ -39,3 +39,13 @@ usage of y and x axis to display weaknesses of different typings
 - Setting parameters to get image to display from search
 - Working with UI elements to get search bar to function properly.
 
+6/11/19
+- Information is now displayed when inputting in search bar.
+  (Name,Picture, HP, Atk, Def, Sp.Def,Sp.Atk and Speed stats)
+- UI elements tweaked
+
+To Do:
+- Media Query
+- Fix & Add more UI elements
+- CSS grid weakness chart
+- Dispay typing

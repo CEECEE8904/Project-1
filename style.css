@@ -43,6 +43,7 @@ float:right;
   outline: 0;
   font-weight: bold;
   cursor: pointer;
+  z-index: 1;
 }
 .search-box-button:hover
 .search-box-button:focus{
@@ -128,3 +129,23 @@ nav::a:before{
   z-index: 5;
 } */ */
 
+
+
+
+/* ----------------- Table ----------------- */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
