@@ -301,7 +301,7 @@ table {
   width: 100%;
   align-self: center;
   padding-right: 500px;
-  background-color: red;
+  background-color: rgb(223, 29, 29);
   display:block;
   margin-left:auto;
   margin-right:auto;
@@ -327,5 +327,10 @@ th{
   .topnav a {
     float: none;
     width: 100%;
+  }
+}
+@media screen and (max-width: 600px){
+  .containerwkn{
+    padding-left: 20px
   }
 }
