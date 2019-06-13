@@ -1,4 +1,4 @@
-                                           -- Project 1 --
+Project 1 - Poke'dex
 
 Name: pOKE something.. I dont really have a name but its going to essentially be a pokedex of sorts.
 
@@ -26,17 +26,41 @@ Defense Stat:
 Sp. Atk Stat:
 Sp. Def Stat:
 Speed Stat:
-**Weakness:**
 
 
-* Search box reads users input and shows the Pokemon image, Pokemon * Name, Height, Weight, Stat Values (HP,Atk, Def, SpAtk, SpDef,        Speed)
-* Hover over the Pokemon triggers a shake effect.
-* Weakness chart on "Weakness Chart" page displays Pkmn Weaknesses
-* Each Weakness is color coded with Dmg (2x)Super Effective Dmg and    Not Very Effective (1/2)
 
 
-Weakness Chart (using css grid)
-usage of y and x axis to display weaknesses of different typings
+Who is this app geared towards?
+What does this app do?
+
+APP geared towards users already familiar with the PKMN game franchise and may want a quick reference when playing their game.
+
+Instructions: 
+
+
+"Click" the search bar to search for your favorite Pokemon. Once the search bar is clicked input your favorite pokemon's name followed by the magnifying glass to input. The input would be registed as result then add the parameters to the search for the API. Once that input is read it will display "result.sprites.front_default". Followed by the "result.name" displaying name then "result.height" and "result.weight" which pulls from the API. All results would be added into the various <p> elements.
+
+Under that information would be a table that is displayed that shows the various stats "stat.stat.name"  grabs the name of the stats while "stat.base_stat" grabse the actual base stats and puts them in the table.
+
+There is 2 different pages Home)->Weakness Chart.
+Both pages allow you to search for your favorite pokemon.  The Weakness chart is displayed on the weaknesss chart page. The chart consists of a (3x3) color coded grid that shows the various PKMN types and weaknesses. Within that there is what other typings that specific type is "Super Effective to" x2 against and "Not very effective" 1/2 from.
+
+
+Features: 
+
+When hovering over Home and Weakness Chart in the nav the color of the text changes to white. 
+Text on the page is changed to a google font "Press Player 2, cursive" which tries to mimic the old school gameboy text. When you hover over the pkmn that was searched they do a little dance.
+
+Struggles:
+The hardest part was getting the specific information that I wanted to with the api. It is very dense with tons of arrays and strings, choosing the set of information to go through was tough. Once you get how everything is categorized it becomes a little easier. 
+
+
+Stretch goals:
+- Adding a footer
+- Adding an evolution effect (If the specific pkmn has   an evolution maybe have an animation transition)
+- Adding specific screech for each pkmn when you hover over them.
+- Showing the weakness of each PKMN (going through the types.type array) **It was display [object Object]**
+
 
 
 
@@ -62,6 +86,9 @@ usage of y and x axis to display weaknesses of different typings
 - CSS grid weakness chart
 - Fix & Add more UI elements
 
-To Do:
+6/13/19
 - Media Query
-- Error message when inputting wrong info
+- UI elements fixed
+
+
+

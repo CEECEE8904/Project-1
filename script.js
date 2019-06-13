@@ -41,8 +41,3 @@ const pkmnSrch = async () => {
 }
 
 button.addEventListener('click', pkmnSrch)
-
-
-
-
-

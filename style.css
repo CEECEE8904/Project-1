@@ -8,9 +8,17 @@ html{
   font-size: 16px;
 }
 
+.fullcontainer{
+  text-align:center;
+  padding-left: 20px;
+
+}
+
 h1{
   text-align: center;
 }
+
+
 
 /* Search-box*/
 .search-box-wrapper{
@@ -31,6 +39,7 @@ border-radius: 0.2em 0 0 0.2em;
 padding: 0.2em 0.5em;
 outline: 0;
 float:right;
+z-index: 9999;
 }
 
 .search-box-input:hover
@@ -91,7 +100,7 @@ nav ul{
 }
 nav li{
   display: inline-block;
-  margin-left: -130px;
+  margin-left: -200px;
   padding-top: 29px;
   padding-right: 220px;
   /* pseudo block level element */
@@ -151,6 +160,7 @@ p#pkmnNm{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  display:center;
 }
 .cell {
   color: white;
@@ -323,14 +333,71 @@ th{
 
 
 /* ---- Media Query ---- */
-@media screen and (max-width: 600px) {
-  .topnav a {
-    float: none;
-    width: 100%;
+
+@media screen and (max-width: 480px){
+  .containerwkn{
+    padding-left: 20px;
+    grid-template-columns: auto;
+  }
+html{ 
+  font-size: 12px;
+}
+  .header{
+    float:center;
+    display:flex;
+  }
+
+  li{
+
+    display: inline;
+    text-align: center;
+    padding-left: 200px;  
+  }
+.search-box-input{
+  position: relative;
+  left:20%;
+}
+button{
+position:absolute;
+}
+  h1{
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
   }
 }
+
 @media screen and (max-width: 600px){
   .containerwkn{
-    padding-left: 20px
+    padding-left: 20px;
+    grid-template-columns: auto;
+  }
+html{ 
+  font-size: 12px;
+}
+  .header{
+    float:center;
+    display:flex;
+  }
+
+  li{
+
+    display: inline;
+    text-align: center;
+    padding-left: 200px;  
+  }
+.search-box-input{
+  position: relative;
+  left:20%;
+}
+button{
+position:absolute;
+}
+  h1{
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
   }
 }
